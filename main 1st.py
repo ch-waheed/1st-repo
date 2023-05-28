@@ -90,7 +90,7 @@ for k in range(1 , 20000):
 # print(s1,s2)
 
 dic = {
-    "Waheed": "Human being" ,
+    "Waheed": "champion" ,
     "Spoon" : "Object"    
 }
 
