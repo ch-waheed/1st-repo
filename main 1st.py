@@ -89,12 +89,12 @@ for k in range(1 , 20000):
 # s1.update(s2)
 # print(s1,s2)
 
-# dic = {
-#     "Waheed": "Human being" ,
-#     "Spoon" : "Object"    
-# }
+dic = {
+    "Waheed": "Human being" ,
+    "Spoon" : "Object"    
+}
 
-# print(dic['Waheed'])
+print(dic['Waheed'])
 
 # dic.clear()
 # for i in range(5):
@@ -110,11 +110,11 @@ for k in range(1 , 20000):
 # except :
 #     print(e)
     
-# print ("Some imp lines of code")
-# print("End of program")
-# a = int(input("Enter any value between  5 and 8"))
-# if (a<5 or a>8):
-#     raise ValueError("Value should be between 5 and 8")
-# a = 330
-# b = 3303
-# print("A") if a > b else print("=") if a==b else print("B")
+print ("Some imp lines of code")
+print("End of program")
+a = int(input("Enter any value between  5 and 8"))
+if (a<5 or a>8):
+    raise ValueError("Value should be between 5 and 8")
+a = 330
+b = 3303
+print("A") if a > b else print("=") if a==b else print("B")
