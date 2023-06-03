@@ -3,7 +3,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route(' https://github.com/car-api-team/docs/releases')
 def process_question():
     # Retrieve the question from the request
     question = request.json['question']
